@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+  font-family: 'Inter';
+  --blue-light: #0e7ff0;
+  --principal: #073b70;
+  --background-body: #eeeeee;
+  --footer: #e2e2e2;
+  --secondary-grey: rgb(196, 196, 196);
+}
+
+body {
+  background-color: var(--background-body);
+}
+.boatrip-logo {
+  font-weight: 700;
+  font-size: 1.7rem;
+
+  color: var(--blue-light);
+}
+
+.boatrip-logo2 {
+  color: white;
+}
+
+.navbar {
+  background-color: #073b70;
+  display: flex;
+  justify-content: space-betweens;
+}
+
+.boatrip-navlinks {
+  display: flex;
+  color: white;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.boatrip-navlinks li:hover {
+  color: var(--blue-light);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.travel-area {
+  width: 45%;
+  min-width: 20rem;
+  box-shadow: -1px 2px 9px rgb(182, 182, 182);
+  overflow-y: auto;
+}
+
+.input-travel {
+  width: 90%;
+  border: 0px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.input-travel:focus {
+  outline: 0px;
+}
+
+.input-travel-date {
+  width: 90%;
+  border: 0px;
+  color: var(--secondary-grey);
+}
+
+.input-travel-date:focus {
+  outline: 0px;
+}
+
+.card-promo {
+  position: relative;
+  background-image: url('./img/background-card.png');
+  background-position: center;
+  background-size: cover;
+  height: 19rem;
+  width: 97%;
+  border-radius: 10px;
+}
+
+.card-promo-footer {
+  height: 6rem;
+  position: relative;
+  bottom: -69%;
+  border-radius: 0 0 10px 10px;
+  color: white;
+}
+
+.card-promo-price {
+  color: #78ff86;
+}
+
+.card-promo-price2 {
+  color: var(--secondary-grey);
+}
+.promo-button {
+  background-color: none;
+  border: 1px solid var(--principal);
+  height: 3.5rem;
+  width: 18rem;
+  border-radius: 3rem;
+  color: var(--principal);
+}
+
+.promo-button:hover {
+  background-color: var(--blue-light);
+  border: 1px solid var(--blue-light);
+  color: white;
+  transition: 0.5s;
+}
+
+.contact-input {
+  height: 3rem;
+  padding: 0.8rem 1rem 1rem 1rem;
+  font-size: 1.1rem;
+  border: 0;
+  box-shadow: 2px 4px 4px rgb(182, 182, 182);
+}
+
+.contact-input:focus {
+  outline: 0px;
+}
+
+.contact-message {
+  min-height: 15rem;
+  max-height: 18rem;
+  padding: 0.8rem 1rem 1rem 1rem;
+  font-size: 1.1rem;
+  border: 0;
+  box-shadow: 2px 4px 4px var(--secondary-grey);
+}
+
+.contact-message:focus {
+  outline: 0px;
+}
+
+.contact-button {
+  width: 16rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 0.5rem;
+
+  background-color: var(--principal);
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: var(--blue-light);
+  transition: 0.5s;
+}
+
+.footer-area {
+  background-color: var(--footer);
+  font-size: 0.8rem;
+}
