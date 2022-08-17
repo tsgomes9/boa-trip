@@ -12,6 +12,10 @@
 body {
   background-color: var(--background-body);
 }
+
+a {
+  text-decoration: none;
+}
 .boatrip-logo {
   font-weight: 700;
   font-size: 1.7rem;
@@ -37,8 +41,8 @@ body {
   font-size: 1.2rem;
 }
 
-.boatrip-navlinks li:hover {
-  color: var(--blue-light);
+.boatrip-navlinks li a:hover {
+  color: white;
   cursor: pointer;
   transition: 0.5s;
 }
